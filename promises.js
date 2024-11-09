@@ -25,6 +25,13 @@ export default async function classPromises() {
     reject("PROMESA NO RESUELTA");
   });
 
+  promise.then((valor) => {
+    console.log(valor);
+
+  return 1
+}).then((valorRetornadoDelPrimerThen) => {
+  console.log(valorRetornadoDelPrimerThen);
+})
   // 1. Then and Catch
 
   // Then: De manejar el valor de resolve
