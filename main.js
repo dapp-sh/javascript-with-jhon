@@ -1,5 +1,3 @@
-import classPromises from './promises.js'
-import './setInterval.js'
-import './setTimeOut.js'
-
-classPromises()
+import "./setInterval.js";
+import "./setTimeOut.js";
+import ".//prototype.js";
